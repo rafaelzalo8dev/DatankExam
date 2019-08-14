@@ -1,0 +1,46 @@
+{
+  "name": "DatankPoll",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node .",
+    "posttest": "npm run lint && nsp check",
+    "clean": "rm -rf node_modules",
+    "reinstall": "npm run clean && npm install",
+    "rebuild": "npm run clean && npm install && npm run build"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^3.1.0",
+    "bcrypt": "^3.0.6",
+    "compression": "^1.0.3",
+    "cors": "^2.5.2",
+    "email-templates": "^6.0.0",
+    "fs": "0.0.1-security",
+    "helmet": "^3.20.0",
+    "lodash": "^4.17.15",
+    "loopback": "^2.22.0",
+    "loopback-boom": "^1.0.0",
+    "loopback-boot": "^2.6.5",
+    "loopback-component-explorer": "^6.4.0",
+    "loopback-connector-mysql": "^2.4.1",
+    "loopback-datasource-juggler": "^2.39.0",
+    "nodemailer": "^6.3.0",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.0.1",
+    "smtp": "^0.1.4",
+    "strong-error-handler": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^2.13.1",
+    "eslint-config-loopback": "^4.0.0",
+    "nsp": "^2.1.0"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "license": "UNLICENSED",
+  "description": "DatankPoll"
+}

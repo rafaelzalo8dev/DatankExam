@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mysql-datank": {
+    "host": "35.232.73.173",
+    "port": 3306,
+    "url": "mysql://root:Rafa1234@35.232.73.173/datankExam",
+    "database": "datankExam",
+    "password": "Rafa1234",
+    "name": "mysql-datank",
+    "user": "root",
+    "connector": "mysql"
+  }
+}

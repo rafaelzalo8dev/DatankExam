@@ -1,0 +1,9 @@
+{
+  "smtpConfig" : {
+    "service": "gmail",
+    "auth": {
+      "user": "datankPollExam@gmail.com",
+      "pass": "Datank1234"
+    }
+  }
+}

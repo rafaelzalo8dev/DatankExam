@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "poll": {
+    "dataSource": "mysql-datank",
+    "public": true
+  },
+  "pollOption": {
+    "dataSource": "mysql-datank",
+    "public": true
+  },
+  "user": {
+    "dataSource": "mysql-datank",
+    "public": true
+  },
+  "userResponse": {
+    "dataSource": "mysql-datank",
+    "public": true
+  }
+}

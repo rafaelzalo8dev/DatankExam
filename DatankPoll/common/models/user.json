@@ -1,0 +1,47 @@
+{
+  "name": "user",
+  "plural": "users",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "lastname": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true,
+      "index": {
+        "unique": true
+      }
+    },
+    "password": {
+      "type": "string",
+      "required": true
+    },
+    "role": {
+      "type": "string",
+      "required": true
+    },
+    "photoUrl": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "userResponses": {
+      "type": "hasMany",
+      "model": "userResponse",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

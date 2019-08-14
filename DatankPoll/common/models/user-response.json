@@ -1,0 +1,35 @@
+{
+  "name": "userResponse",
+  "plural": "userResponses",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "createdAt": {
+      "type": "date",
+      "defaultFn": "now"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "user": {
+      "type": "belongsTo",
+      "model": "user",
+      "foreignKey": ""
+    },
+    "pollOption": {
+      "type": "belongsTo",
+      "model": "pollOption",
+      "foreignKey": ""
+    },
+    "poll": {
+      "type": "belongsTo",
+      "model": "poll",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

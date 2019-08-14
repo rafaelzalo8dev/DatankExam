@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "autogenaaccesorios",
+  "private_key_id": "8d9aa486192153120bb0cb05687023cf9d63c998",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDKnnEKh88U0onk\nv4qAskf9jRxBGLuxG8bQazCVfJ+URrGRc3Q0m3HgW+eStgj0bXnktt0csWWRSPJ5\nylSisDjA+VeEv8JEwOOqxKRoCEPaMRy0Dy7j1CtqCmnP+Ig/j5zAHWw/k44AkUGB\naJ8XuQzMwvPdruv6jpWLJ0B/0XPt/3XfXpQJxjM0bdUd63/J36IVkuZql102WqqD\nbR9FYrkyT/P7fVR42dKhPSiijxk3oSSL9OSOsg2syTgOU/9ip7Yv3EkxEes5nj/d\nKeLIl2+mPp78jF6A9P+K3a7ma7mnCOECJ9wi9c9B8W2kD4QLvPxkzQIy6W8yR8m4\ncx08EF5TAgMBAAECggEAYxNilxGdcsMYZmA6q3+BsDvF6xbbAFliuBsR4KbVqT2A\nKm1YDzlLT7fg3l5gtpSpm+rG5/begVI4LtF+3SZqOgIyh1j094WSTbhl4/DWrOSC\n8pDSDtl6eRmqb+VJSjtBHLfGbLgMIb7lVw//aywzVBSoBmg4P4ZlHWwOH/IdS+xV\nyA6QqSaj+e1Rk34fm5YWTP9AAqDWk9a7AhGV7gZYEou9zYj2cVHMetolj7r1ItDe\nj4j2/Xne3YmBDWqI8UuLGrGJzsUojg7xCFke9F40/djvurB4C5JxttA84VsPbq7v\n3Ke+2fEVbtWIZsbn4XAl1HNXJsMclmgnA8iMPnOHwQKBgQDm4I26gQnawWoImNqG\nxt2hYGKS3YIsFmbviVrXMOreaaGHgAM70O2Tdf6KV30TZrFAFK6Syo0DO6aqQUO+\nz58k6H/Kn+793SmVfvk/facd5sGhqYlJmkF6o4bgFU6H0Uqv8eOVkVEczG5sxaOw\n0GWQv1q/4SwbdZoQ27ZyzYbOkQKBgQDgqrW/OONaN9uGV5karXw2RSU68ovPzaTY\nUf0ACulnEjWJ6vVkKUFHMz58ufqT1nsnOw+gNbwJeNlTkshWNWd3xwtsRVFUc4O9\nNeUKRM9tf+qMJV0zxLrsFtrspjNArf03eT0reXBMJIxjVTMygAbKTi+3yBhmwOgX\nQUzHQylYowKBgQClr9EGX0RrMRKfSNLKljzHaxxSuZSJfyowDSqb9AcZxkSdsUig\nzLcydCNPtKmWGsRpcG43+hRolY5t8Jhlfyp+mjvbdhtVJDqLhqvo3Ivp8YhUNA7K\nO2FyWZiZh7Dr1076JWVmGPtU54D3nn5yjZvV3P2LZlT4/9So9IRirwxngQKBgC3s\nNwJDSpWiXUj0luMRGxasw5NtCI8NZeihualMkbDz0+XBFS/IDwPSwa8VBNc7PCkk\ntWj2Et2Myj9+/VxBxkiBcyBKevlcM011ur+CmTO0tei3qnlueRbRBSbiQg+ygNPa\nAFrmk8G8psWXIMPtz3WCzdYvHG3EeKxoOJ1yaP0pAoGAU5b8ypJX5TyFvISp0pdJ\nIB8/IZPPt0cyIlDtp0EdEQP2VOLZvlUuP0gKPqohUGLLfGkjD3DmzUvEbUMYV3PC\nMTF+v6UT7S4v60InpCROwf/2SWr5OUI8t5VZp0t0kTG5HoTro/J/kMbWjszat/u3\n/Tfm/5/TfNz4xiFeTGk4wcA=\n-----END PRIVATE KEY-----\n",
+  "client_email": "buckets@autogenaaccesorios.iam.gserviceaccount.com",
+  "client_id": "108893514750740917177",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/buckets%40autogenaaccesorios.iam.gserviceaccount.com"
+}

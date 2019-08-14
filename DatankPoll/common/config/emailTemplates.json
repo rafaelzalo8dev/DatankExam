@@ -1,0 +1,8 @@
+{
+  "POLL_REQUEST": {
+    "subject": "Nueva encuesta en DatankPoll",
+    "html": "pollRequest",
+    "from": "DatankPoll <rafaelzalo8@gmail.com>",
+    "senderEmail": "rafaelzalo8@gmail.com"
+  }
+}

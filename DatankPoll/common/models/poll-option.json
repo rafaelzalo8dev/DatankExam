@@ -1,0 +1,25 @@
+{
+  "name": "pollOption",
+  "plural": "pollOptions",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "value": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "userResponses": {
+      "type": "hasMany",
+      "model": "userResponse",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,57 @@
+{
+  "name": "poll",
+  "plural": "polls",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "question": {
+      "type": "string",
+      "required": true
+    },
+    "createdAt": {
+      "type": "date",
+      "defaultFn": "now"
+    },
+    "updatedAt": {
+      "type": "date",
+      "defaultFn": "now"
+    },
+    "answers": {
+      "type": "number",
+      "default": 0
+    },
+    "visible": {
+      "type": "boolean",
+      "default": true
+    },
+    "photoUrl": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "pollOptions": {
+      "type": "hasMany",
+      "model": "pollOption",
+      "foreignKey": ""
+    },
+    "user": {
+      "type": "belongsTo",
+      "model": "user",
+      "foreignKey": ""
+    },
+    "userResponses": {
+      "type": "hasMany",
+      "model": "userResponse",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
